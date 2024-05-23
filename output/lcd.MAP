@@ -1,0 +1,478 @@
+
+Linker Version 8.7.7.220718
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\STARTUP1_L.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_RF_API_RODATA.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\TI_AES_128_ENCR_ONLY.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_ERROR.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_CRC.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_BITSTREAM.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ
+Input Object File: d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_TX_CONTROL.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0001h     0003h    0003h      CODE               ltodaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0004h     000ah    0007h      CODE               _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     000bh     000bh    0001h      CODE               _MCU_API_timer_stop (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     000ch     000ch    0001h      CODE               @timebase0_code (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     000dh     002eh    0022h      CODE               @ROMDATA_BASE (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\STARTUP1_L.OBJ)
+     00h     002fh     004fh    0021h      CODE               @start (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0050h     008bh    003ch      CODE               _builtin_holtek_dtdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ch     0099h    000eh      CODE               itodaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009ah     00d7h    003eh      CODE               @builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d8h     0117h    0040h      CODE               _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0118h     0142h    002bh      CODE               _builtin_holtek_dtol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0143h     0176h    0034h      CODE               _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0177h     018eh    0018h      CODE               @builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     018fh     020eh    0080h      CODE               @crom (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\TI_AES_128_ENCR_ONLY.OBJ)
+     00h     020fh     022ch    001eh      CODE               @crom (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_BITSTREAM.OBJ)
+     00h     022dh     0235h    0009h      CODE               _Watchdog_config (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0236h     023ch    0007h      CODE               _GPIO_config (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     023dh     0241h    0005h      CODE               _LED_on_off (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0242h     0245h    0004h      CODE               _EnterDeepSleep (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0246h     024bh    0006h      CODE               _init_timebase (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     024ch     0254h    0009h      CODE               _main (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0255h     0277h    0023h      CODE               _MCU_API_timer_start (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0278h     0278h    0001h      CODE               _MCU_API_timer_status (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0279h     0279h    0001h      CODE               _MCU_API_timer_wait_cplt (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     027ah     0287h    000eh      CODE               _MCU_API_aes_128_cbc_encrypt (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0288h     0293h    000ch      CODE               _MCU_API_get_ep_id (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0294h     029fh    000ch      CODE               _MCU_API_get_nvm (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     02a0h     02adh    000eh      CODE               _MCU_API_set_nvm (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     02aeh     02c8h    001bh      CODE               _RF_API_wake_up (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     02c9h     02cdh    0005h      CODE               _RF_API_sleep (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     02ceh     0415h    0148h      CODE               _RF_API_init (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     0416h     041eh    0009h      CODE               _RF_API_de_init (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     041fh     05bbh    019dh      CODE               _RF_API_send (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     05bch     05c9h    000eh      CODE               _galois_mul2 (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\TI_AES_128_ENCR_ONLY.OBJ)
+     00h     05cah     083ch    0273h      CODE               _aes_encrypt (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\TI_AES_128_ENCR_ONLY.OBJ)
+     00h     083dh     0856h    001ah      CODE               _IAP_ew_en_proc (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ)
+     00h     0857h     088bh    0035h      CODE               _IAP_read (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ)
+     00h     088ch     0918h    008dh      CODE               _IAP_write (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ)
+     00h     0919h     092dh    0015h      CODE               __is_last_frame_of_uplink_sequence (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     092eh     09cbh    009eh      CODE               __start_transmission (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     09cch     0a88h    00bdh      CODE               __internal_process (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0a89h     0aeah    0062h      CODE               _SIGFOX_EP_API_open (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0aebh     0af0h    0006h      CODE               _SIGFOX_EP_API_close (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0af1h     0b4eh    005eh      CODE               _SIGFOX_EP_API_send_application_message (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0b4fh     0b51h    0003h      CODE               _SIGFOX_EP_API_get_message_status (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0b52h     0ba8h    0057h      CODE               _SIGFOX_CRC_compute_crc16 (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_CRC.OBJ)
+     00h     0ba9h     0fa2h    03fah      CODE               _SIGFOX_EP_BITSTREAM_build_application_frame (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_BITSTREAM.OBJ)
+     00h     0fa3h     10c5h    0123h      CODE               __compute_new_random_frequency (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     10c6h     1111h    004ch      CODE               _SIGFOX_EP_FREQUENCY_init (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     1112h     112eh    001dh      CODE               _SIGFOX_EP_FREQUENCY_compute_uplink (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     112fh     113ah    000ch      CODE               _SIGFOX_EP_FREQUENCY_get_random_value (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     113bh     1148h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     1149h     1152h    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     1153h     1195h    0043h      CODE               _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     1196h     11cch    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     11cdh     11d6h    000ah      CODE               _builtin_holtek_mulqi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     11d7h     11f5h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     11f6h     1208h    0013h      CODE               _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     1209h     1218h    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     1e00h     1effh    0100h      CODE               crom_mcu_rf_rodata (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_RF_API_RODATA.OBJ)
+     00h     1f00h     1fffh    0100h      CODE               crom_nvm (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_RF_API_RODATA.OBJ)
+     00h     0080h     0080h    0001h      DATA     189       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     248       @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     207       @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     198       @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     155       @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     107       @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     91        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     27        @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     008dh    0006h      DATA     28.5      ftdata1 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008eh     0090h    0003h      DATA     23        dtdata (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0091h     0097h    0007h      DATA     11        ftdata2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     01h     0082h     00bah    0039h      DATA     1.9123    @HCCINIT_sigfox_ep_api_ctx (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     01h     00bbh     00bch    0002h      DATA     0         @HCCINIT_flag (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     01h     00bdh     00beh    0002h      DATA     0         @HCCINIT_timer_counter (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     01h     00bfh     00c5h    0007h      DATA     4.7143    @HCCINIT0_sigfox_ep_bitstream_ctx (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_BITSTREAM.OBJ)
+     01h     00c6h     00c7h    0002h      DATA     4         @HCCINIT0_const_table_ptr (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     01h     00c8h     00cfh    0008h      DATA     2.75      @HCCINIT0_sigfox_ep_frequency_ctx (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0098h     0098h    0000h      LOCAL    0         @dummy (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _main (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _GPIO_config (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _init_timebase (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _EnterDeepSleep (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     00a4h     00adh    000ah      LOCAL    1         _SIGFOX_EP_API_open (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     009dh     009fh    0003h      LOCAL    2         _MCU_API_get_nvm (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0098h     009ch    0005h      LOCAL    3.6       _IAP_read (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ)
+     00h     009dh     009fh    0003h      LOCAL    2         _MCU_API_get_ep_id (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     009eh     00a3h    0006h      LOCAL    2         _SIGFOX_EP_FREQUENCY_init (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     0098h     009dh    0006h      LOCAL    3.1667    _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     01h     0080h     0081h    0002h      LOCAL    3         _SIGFOX_EP_API_send_application_message (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     00f9h     00ffh    0007h      LOCAL    2         __internal_process (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     00edh     00f8h    000ch      LOCAL    1.9167    __start_transmission (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     00beh     00ech    002fh      LOCAL    3.1064    _SIGFOX_EP_BITSTREAM_build_application_frame (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_BITSTREAM.OBJ)
+     00h     0098h     009fh    0008h      LOCAL    5.875     _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00bch     00bdh    0002h      LOCAL    2         _MCU_API_aes_128_cbc_encrypt (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0099h     00bbh    0023h      LOCAL    3.6       _aes_encrypt (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\TI_AES_128_ENCR_ONLY.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    0         _galois_mul2 (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\TI_AES_128_ENCR_ONLY.OBJ)
+     00h     0098h     009eh    0007h      LOCAL    2.5714    _SIGFOX_CRC_compute_crc16 (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_CRC.OBJ)
+     00h     0098h     0099h    0002h      LOCAL    4.5       _builtin_holtek_mulqi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00beh     00c2h    0005h      LOCAL    2.6       _SIGFOX_EP_FREQUENCY_compute_uplink (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     00a6h     00bdh    0018h      LOCAL    2.8333    __compute_new_random_frequency (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     0098h     00a3h    000ch      LOCAL    4.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     00a5h    000eh      LOCAL    5.6429    _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0099h    0002h      LOCAL    2         _SIGFOX_EP_FREQUENCY_get_random_value (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_FREQUENCY.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _RF_API_wake_up (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a6h     00abh    0006h      LOCAL    2.8333    _RF_API_init (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_ultod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_dtdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_itod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      LOCAL    0         _builtin_holtek_dtol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     00bdh    0026h      LOCAL    3.7368    _RF_API_send (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _RF_API_de_init (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         __is_last_frame_of_uplink_sequence (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _RF_API_sleep (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\RF_API.OBJ)
+     00h     009eh     00a0h    0003h      LOCAL    2         _MCU_API_set_nvm (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0098h     009dh    0006h      LOCAL    4.1667    _IAP_write (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ)
+     00h     0098h     0098h    0000h      LOCAL    0         _IAP_ew_en_proc (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\IAP.OBJ)
+     00h     0099h     009ah    0002h      LOCAL    2         _MCU_API_timer_start (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0001h      LOCAL    0         _MCU_API_timer_wait_cplt (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0098h     0098h    0001h      LOCAL    0         _MCU_API_timer_stop (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0098h     0098h    0001h      ILOCAL   0         _Watchdog_config (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0098h     0098h    0001h      ILOCAL   0         _LED_on_off (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ)
+     00h     0098h     009ah    0003h      ILOCAL   0         _MCU_API_timer_status (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_API.OBJ)
+     00h     0098h     0098h    0000h      ILOCAL   0         _SIGFOX_EP_API_close (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0098h     0098h    0000h      ILOCAL   0         _SIGFOX_EP_API_get_message_status (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\SIGFOX_EP_API.OBJ)
+     00h     0098h     0098h    0000h      ILOCAL   0         _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      ILOCAL   0         _builtin_holtek_uitod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0098h     0098h    0000h      ILOCAL   0         _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Unallocated Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     3e00h     3fffh    0200h      CODE               crom_nvm (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_RF_API_RODATA.OBJ)
+     00h     3c00h     3dffh    0200h      CODE               crom_mcu_rf_rodata (d:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MCU_RF_API_RODATA.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     120ah              _Crom2Prom
+     1209h              _Crom2PromNext
+     0242h              _EnterDeepSleep
+     0236h              _GPIO_config
+     083dh              _IAP_ew_en_proc
+     0857h              _IAP_read
+     088ch              _IAP_write
+     023dh              _LED_on_off
+     027ah              _MCU_API_aes_128_cbc_encrypt
+     00bch              _MCU_API_aes_128_cbc_encrypt_2
+     0288h              _MCU_API_get_ep_id
+     009dh              _MCU_API_get_ep_id_2
+     0294h              _MCU_API_get_nvm
+     02a0h              _MCU_API_set_nvm
+     00a0h              _MCU_API_set_nvm_2
+     0255h              _MCU_API_timer_start
+     0099h              _MCU_API_timer_start_2
+     0278h              _MCU_API_timer_status
+     000bh              _MCU_API_timer_stop
+     0279h              _MCU_API_timer_wait_cplt
+     0416h              _RF_API_de_init
+     02ceh              _RF_API_init
+     00a6h              _RF_API_init_2
+     041fh              _RF_API_send
+     009bh              _RF_API_send_2
+     02c9h              _RF_API_sleep
+     02aeh              _RF_API_wake_up
+     0b52h              _SIGFOX_CRC_compute_crc16
+     0aebh              _SIGFOX_EP_API_close
+     0b4fh              _SIGFOX_EP_API_get_message_status
+     0a89h              _SIGFOX_EP_API_open
+     0af1h              _SIGFOX_EP_API_send_application_message
+     0180h              _SIGFOX_EP_API_send_application_message_2
+     0ba9h              _SIGFOX_EP_BITSTREAM_build_application_frame
+     00beh              _SIGFOX_EP_BITSTREAM_build_application_frame_2
+     1112h              _SIGFOX_EP_FREQUENCY_compute_uplink
+     112fh              _SIGFOX_EP_FREQUENCY_get_random_value
+     10c6h              _SIGFOX_EP_FREQUENCY_init
+     022dh              _Watchdog_config
+     114ch              __DELAYX0
+     114bh              __DELAYX1
+     114bh              __DELAYX2
+     114ah              __DELAYX3
+     114ah              __DELAYX4
+     1149h              __DELAYX5
+     1149h              __DELAYX6
+     113dh              __DELAYY0_isr00
+     113dh              __DELAYY1_isr00
+     113ch              __DELAYY2_isr00
+     113ch              __DELAYY3_isr00
+     113bh              __DELAYY4_isr00
+     113bh              __DELAYY5_isr00
+     05cah              _aes_encrypt
+     1196h              _builtin_holtek_divmodhi4_isr00
+     009ch              _builtin_holtek_dtadd
+     0182h              _builtin_holtek_dtdecode1
+     0177h              _builtin_holtek_dtdecode2
+     0050h              _builtin_holtek_dtdiv
+     0004h              _builtin_holtek_dtinf
+     00d8h              _builtin_holtek_dtmul
+     0143h              _builtin_holtek_dtnorm
+     0118h              _builtin_holtek_dtol
+     009ah              _builtin_holtek_dtsub
+     018ah              _builtin_holtek_dtzero
+     018dh              _builtin_holtek_dtzero1
+     008bh              _builtin_holtek_exp1
+     0094h              _builtin_holtek_exp2
+     008dh              _builtin_holtek_floatflag
+     008ch              _builtin_holtek_itod
+     0088h              _builtin_holtek_mant1
+     008eh              _builtin_holtek_mant12p
+     0091h              _builtin_holtek_mant2
+     11f6h              _builtin_holtek_mulhi3_isr00
+     11cdh              _builtin_holtek_mulqi3_isr00
+     11d7h              _builtin_holtek_mulsi3_isr00
+     0095h              _builtin_holtek_prod
+     008ch              _builtin_holtek_signs
+     119fh              _builtin_holtek_udivmodhi4_isr00
+     1153h              _builtin_holtek_udivmodsi4_isr00
+     0095h              _builtin_holtek_uitod
+     0001h              _builtin_holtek_ultod
+     01c6h              _const_table_ptr
+     01bbh              _flag
+     05bch              _galois_mul2
+     0246h              _init_timebase
+     024ch              _main
+     1e00h              _mcu_rf_rodata
+     1f00h              _nvm
+     018fh              _sbox
+     000ch              _timebase0
+     01bdh              _timer_counter
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     000ch              startup_value_1
+
+     Address            Public by Value
+     0001h              _builtin_holtek_ultod
+     0004h              _builtin_holtek_dtinf
+     000bh              _MCU_API_timer_stop
+     000ch              _timebase0
+     000ch              startup_value_1
+     0050h              _builtin_holtek_dtdiv
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              _builtin_holtek_mant1
+     008bh              _builtin_holtek_exp1
+     008ch              _builtin_holtek_signs
+     008ch              _builtin_holtek_itod
+     008dh              _builtin_holtek_floatflag
+     008eh              _builtin_holtek_mant12p
+     0091h              _builtin_holtek_mant2
+     0094h              _builtin_holtek_exp2
+     0095h              _builtin_holtek_uitod
+     0095h              _builtin_holtek_prod
+     0099h              _MCU_API_timer_start_2
+     009ah              _builtin_holtek_dtsub
+     009bh              _RF_API_send_2
+     009ch              _builtin_holtek_dtadd
+     009dh              _MCU_API_get_ep_id_2
+     00a0h              _MCU_API_set_nvm_2
+     00a6h              _RF_API_init_2
+     00bch              _MCU_API_aes_128_cbc_encrypt_2
+     00beh              _SIGFOX_EP_BITSTREAM_build_application_frame_2
+     00d8h              _builtin_holtek_dtmul
+     0118h              _builtin_holtek_dtol
+     0143h              _builtin_holtek_dtnorm
+     0177h              _builtin_holtek_dtdecode2
+     0180h              _SIGFOX_EP_API_send_application_message_2
+     0182h              _builtin_holtek_dtdecode1
+     018ah              _builtin_holtek_dtzero
+     018dh              _builtin_holtek_dtzero1
+     018fh              _sbox
+     01bbh              _flag
+     01bdh              _timer_counter
+     01c6h              _const_table_ptr
+     022dh              _Watchdog_config
+     0236h              _GPIO_config
+     023dh              _LED_on_off
+     0242h              _EnterDeepSleep
+     0246h              _init_timebase
+     024ch              _main
+     0255h              _MCU_API_timer_start
+     0278h              _MCU_API_timer_status
+     0279h              _MCU_API_timer_wait_cplt
+     027ah              _MCU_API_aes_128_cbc_encrypt
+     0288h              _MCU_API_get_ep_id
+     0294h              _MCU_API_get_nvm
+     02a0h              _MCU_API_set_nvm
+     02aeh              _RF_API_wake_up
+     02c9h              _RF_API_sleep
+     02ceh              _RF_API_init
+     0416h              _RF_API_de_init
+     041fh              _RF_API_send
+     05bch              _galois_mul2
+     05cah              _aes_encrypt
+     083dh              _IAP_ew_en_proc
+     0857h              _IAP_read
+     088ch              _IAP_write
+     0a89h              _SIGFOX_EP_API_open
+     0aebh              _SIGFOX_EP_API_close
+     0af1h              _SIGFOX_EP_API_send_application_message
+     0b4fh              _SIGFOX_EP_API_get_message_status
+     0b52h              _SIGFOX_CRC_compute_crc16
+     0ba9h              _SIGFOX_EP_BITSTREAM_build_application_frame
+     10c6h              _SIGFOX_EP_FREQUENCY_init
+     1112h              _SIGFOX_EP_FREQUENCY_compute_uplink
+     112fh              _SIGFOX_EP_FREQUENCY_get_random_value
+     113bh              __DELAYY4_isr00
+     113bh              __DELAYY5_isr00
+     113ch              __DELAYY2_isr00
+     113ch              __DELAYY3_isr00
+     113dh              __DELAYY0_isr00
+     113dh              __DELAYY1_isr00
+     1149h              __DELAYX5
+     1149h              __DELAYX6
+     114ah              __DELAYX3
+     114ah              __DELAYX4
+     114bh              __DELAYX1
+     114bh              __DELAYX2
+     114ch              __DELAYX0
+     1153h              _builtin_holtek_udivmodsi4_isr00
+     1196h              _builtin_holtek_divmodhi4_isr00
+     119fh              _builtin_holtek_udivmodhi4_isr00
+     11cdh              _builtin_holtek_mulqi3_isr00
+     11d7h              _builtin_holtek_mulsi3_isr00
+     11f6h              _builtin_holtek_mulhi3_isr00
+     1209h              _Crom2PromNext
+     120ah              _Crom2Prom
+     1e00h              _mcu_rf_rodata
+     1f00h              _nvm
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     2000h     1419h    62%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0080h    100%
+     01h       0080h     0050h    62%
+     Total     0100h     00d0h    81%
+
+Use Stack Count
+_main: 1
+_SIGFOX_EP_API_open: 2
+_SIGFOX_EP_API_send_application_message: 6
+
+Call Tree
+    @dummy
+        _main (0)
+            _GPIO_config (1)
+            _init_timebase (1)
+            _EnterDeepSleep (1)
+    _SIGFOX_EP_API_open
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+        _MCU_API_get_nvm (0)
+            _IAP_read (1)
+        _MCU_API_get_ep_id (0)
+            _IAP_read (1)
+        _SIGFOX_EP_FREQUENCY_init (0)
+            _Crom2Prom (1)
+            _builtin_holtek_mulhi3_isr00 (1)
+    _SIGFOX_EP_API_send_application_message
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+        __internal_process (0)
+            __start_transmission (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _SIGFOX_EP_BITSTREAM_build_application_frame (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _MCU_API_aes_128_cbc_encrypt (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _aes_encrypt (4)
+                            _Crom2Prom (5)
+                            _galois_mul2 (5)
+                    _SIGFOX_CRC_compute_crc16 (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _builtin_holtek_mulqi3_isr00 (3)
+                _SIGFOX_EP_FREQUENCY_compute_uplink (2)
+                    _Crom2Prom (3)
+                    __compute_new_random_frequency (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_divmodsi4_isr00 (4)
+                _SIGFOX_EP_FREQUENCY_get_random_value (2)
+                _RF_API_wake_up (2)
+                    __DELAYX (3)
+                _RF_API_init (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _builtin_holtek_ultod (3)
+                    _builtin_holtek_dtdiv (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtmul (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtol (3)
+                        _builtin_holtek_dtdecode (4)
+                    __DELAYX (3)
+                _RF_API_send (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+            _RF_API_de_init (1)
+                __DELAYX (2)
+            __is_last_frame_of_uplink_sequence (1)
+                _Crom2Prom (2)
+            _RF_API_sleep (1)
+                __DELAYX (2)
+            _MCU_API_set_nvm (1)
+                _IAP_write (2)
+                    _IAP_ew_en_proc (3)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+            _MCU_API_timer_start (1)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+                _builtin_holtek_delay_isr00 (2)
+            _MCU_API_timer_wait_cplt (1)
+            _MCU_API_timer_stop (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'd:\sigfox-ep-example-holtek-bc68f2150-master-tb0\output\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
